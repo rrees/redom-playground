@@ -4,7 +4,7 @@ import {choose} from 'rrees-js-random';
 
 const store = createStore((state, action) => action);
 
-const colours = ['red', 'green', 'blue', 'gray'];
+const colours = ['red', 'green', 'blue', 'gray', 'purple', 'black'];
 
 function chooseColour() {
     return {type: 'CHANGE_COLOUR', colour: choose(colours)};
