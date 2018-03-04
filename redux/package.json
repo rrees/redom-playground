@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "redom": "^3.11.1",
+    "redux": "^3.7.2",
+    "rrees-js-random": "^0.0.2"
+  }
+}
