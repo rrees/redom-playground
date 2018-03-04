@@ -22,7 +22,7 @@ class ColourDisplay {
         const vm = this;
         const initialColour = store.getState().colour;
 
-        this.el = el('div.counter', [
+        this.el = el('div.colourDisplay', [
                 this.colour = el('p', {style: {color: initialColour}}, initialColour),
                 this.shuffle = el('button', 'Shuffle'),
             ]);
